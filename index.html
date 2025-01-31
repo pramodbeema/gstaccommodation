@@ -27,7 +27,8 @@
 
         .header {
             text-align: center;
-            margin-bottom: 2rem;
+            padding-top: 60px; /* Adds space below watermark */
+            margin-bottom: 1rem;
             animation: fadeIn 1s ease-in;
         }
 
@@ -40,6 +41,9 @@
         }
 
         @media (max-width: 768px) {
+            .header {
+        padding-top: 70px; /* Slightly more padding on mobile */
+    }
             .header h1 {
                 font-size: 1.8rem;
                 padding: 15px;
@@ -67,7 +71,7 @@
         }
 
         .svg-container {
-            height: 80vh; /* Changed to viewport height */
+            height: 70vh; /* Changed to viewport height */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -148,7 +152,6 @@
     <div class="watermark">Made by Beema's Fincon</div>
     
     <div class="header">
-        <h1> </h1>
         <h1>GST Exemption on Accommodation Services 🏨</h1>
     </div>
 
