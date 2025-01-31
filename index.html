@@ -28,7 +28,7 @@
         .header {
             text-align: center;
             padding-top: 60px; /* Adds space below watermark */
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem; /*Even smaller margin*/
             animation: fadeIn 1s ease-in;
         }
 
@@ -71,11 +71,12 @@
         }
 
         .svg-container {
-            height: 70vh; /* Changed to viewport height */
+            height: 65vh; /* Changed to viewport height */
             display: flex;
             justify-content: center;
             align-items: center;
             animation: fadeIn 1s ease-in;
+            margin-top: -1rem /* Negative margin to pull it up closer to header */
         }
 
         .svg-container object {
